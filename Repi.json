@@ -1,0 +1,45 @@
+{
+  "room":   "Ešte sa bude vytvárať",
+  "author": "尺モㄗ工",
+  "icon":   "",
+  "css":    "",
+  "rules": {
+    "allowAutorespond": true,
+    "allowAutowoot":    true,
+    "allowAutojoin":    true,
+    "allowAutograb":    true,
+    "allowSmartVote":   true,
+    "allowEmotes":      true,
+    "allowShowingMehs": true,
+    "forceSmartVote":   false
+  },
+  "ccc": {
+    "admin":            null,
+    "ambassador":       null,
+    "host":             "#0000FF",
+    "cohost":           "#0080FF",
+    "manager":          "#00FFFF",
+    "bouncer":          "#2C2CAE",
+    "rdj":              "#5DACFB",
+    "subscriber":       "#C83232",
+    "silversubscriber": "#DA842E",
+    "friend":           null,
+    "user":             null
+  },
+  "images": {
+    "background":       "",
+    "playback":         "",
+    "admin":            null,
+    "ambassador":       null,
+    "host":             "https://vgy.me/dBdgZD.png",
+    "cohost":           "https://vgy.me/Gg7vCV.png",
+    "manager":          "https://vgy.me/sWKShZ.png",
+    "bouncer":          "https://vgy.me/ZV4z0f.png",
+    "rdj":              "https://vgy.me/k4SGd1.png",
+    "subscriber":       "https://vgy.me/PAMuTI.png",
+    "silversubscriber": "https://vgy.me/XS590k.png"
+  },
+  "autocomplete": [],
+  "emotes": {
+  }
+}
