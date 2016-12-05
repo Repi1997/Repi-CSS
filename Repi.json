@@ -1,7 +1,7 @@
 {
   "room":   "Ešte sa bude vytvárať",
   "author": "尺モㄗ工",
-  "icon":   "",
+  "icon":   "https://vgy.me/4nxTNR.png",
   "css":    "",
   "rules": {
     "allowAutorespond": true,
@@ -16,28 +16,28 @@
   "ccc": {
     "admin":            null,
     "ambassador":       null,
-    "host":             "#0000FF",
-    "cohost":           "#0080FF",
-    "manager":          "#00FFFF",
-    "bouncer":          "#2C2CAE",
-    "rdj":              "#5DACFB",
-    "subscriber":       "#C83232",
-    "silversubscriber": "#DA842E",
+    "host":             "ACE4EA",
+    "cohost":           "ACE4EA",
+    "manager":          "ACE4EA",
+    "bouncer":          "ACE4EA",
+    "rdj":              "ACE4EA",
+    "subscriber":       "#85EBF5",
+    "silversubscriber": "#46B2BC",
     "friend":           null,
     "user":             null
   },
   "images": {
-    "background":       "",
-    "playback":         "",
+    "background":       "https://vgy.me/jmtbQv.jpeg",
+    "playback":         "https://vgy.me/ynshMG.png",
     "admin":            null,
     "ambassador":       null,
-    "host":             "https://vgy.me/dBdgZD.png",
-    "cohost":           "https://vgy.me/Gg7vCV.png",
-    "manager":          "https://vgy.me/sWKShZ.png",
-    "bouncer":          "https://vgy.me/ZV4z0f.png",
-    "rdj":              "https://vgy.me/k4SGd1.png",
-    "subscriber":       "https://vgy.me/PAMuTI.png",
-    "silversubscriber": "https://vgy.me/XS590k.png"
+    "host":             "https://vgy.me/9yKYCA.png",
+    "cohost":           "https://vgy.me/9yKYCA.png",
+    "manager":          "https://vgy.me/Kxu9PK.png",
+    "bouncer":          "https://vgy.me/ZpNm0o.png",
+    "rdj":              "https://vgy.me/Thvpo5.png",
+    "subscriber":       "https://vgy.me/TiquPI.png",
+    "silversubscriber": "https://vgy.me/DMyij4.png"
   },
   "autocomplete": [],
   "emotes": {
