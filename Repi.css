@@ -1330,12 +1330,3 @@ background-position: 9px 9px;
 #room-bar .icon-room {
     background: url('https://vgy.me/i4Poo0.png') no-repeat;
 }
-.votes-rs .title.meh {
-   background-color: #702B30;
-}
-.votes-rs .title.woot {
-   background-color: #407D42; 
-}
-.votes-rs .title.grab {
-   background-color: #eec81b; 
-}
