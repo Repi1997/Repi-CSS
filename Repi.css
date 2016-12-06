@@ -1327,7 +1327,3 @@ background-position: 9px 9px;
 #app-menu .button {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
 }
-#room-settings .general-settings .description .value:after {
-	content:"Christmas CSS";
-	color: #46B2BC;
-}
