@@ -14,8 +14,8 @@
     "forceSmartVote":   false
   },
   "ccc": {
-    "admin":            null,
-    "ambassador":       null,
+    "admin":            "#42A5DC",
+    "ambassador":       "#6CBEBC",
     "host":             "#1A56AA",
     "cohost":           "#1A56AA",
     "manager":          "#4D87D9",
@@ -29,8 +29,8 @@
   "images": {
     "background":       "https://vgy.me/jmtbQv.jpeg",
     "playback":         "https://vgy.me/N3MEBY.png",
-    "admin":            null,
-    "ambassador":       null,
+    "admin":            "https://vgy.me/v2Skgx.png",
+    "ambassador":       "https://vgy.me/PhlO8i.png",
     "host":             "https://vgy.me/9yKYCA.png",
     "cohost":           "https://vgy.me/9yKYCA.png",
     "manager":          "https://vgy.me/Kxu9PK.png",
