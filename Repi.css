@@ -1331,6 +1331,6 @@ background-position: 9px 9px;
     background: url('https://vgy.me/i4Poo0.png') no-repeat;
 }
 -#room-settings .general-settings .description .value:after {
- 	content: "Create CSS by Repi (CHRISTMAS CSS)";
+ 	content:"Create CSS by Repi (CHRISTMAS CSS)";
  	color: #46B2BC;
  }
