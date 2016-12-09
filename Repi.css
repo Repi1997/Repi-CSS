@@ -1330,3 +1330,8 @@ background-position: 9px 9px;
 #room-bar .icon-room {
     background: url('https://vgy.me/i4Poo0.png') no-repeat;
 }
+#room .app-right,
+#room .app-header{
+   opacity: 0.86 !important;
+   background: rgba(63, 186, 197, 0.39);
+}           
