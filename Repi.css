@@ -650,13 +650,6 @@ box-shadow: 0 0 10px #C41EC3 !important; }
 box-shadow: 0 0 15px #12A9E0 !important; }
 #playback-controls .button.hd { background: linear-gradient(to bottom,rgba(68, 68, 68, 0.6) 0,rgba(226, 37, 0, 0.73) 100%);
 box-shadow: 0 0 10px rgba(158, 30, 11, 1) !important; }
-#playback .background {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-visibility: hidden;
 }
 .icon { background-image: url('https://vgy.me/ChQdwM.png'); } /* vermelho */
 .icon.icon-chat-songlink { background: url('https://i.imgur.com/4ySq2jE.png') !important;
@@ -760,7 +753,7 @@ background: linear-gradient(to bottom,rgba(0, 0, 0, 0.37) 0,rgba(0, 0, 0, 0.44) 
 background: linear-gradient(to top,rgba(77, 77, 77, 1) 0,rgba(15, 15, 30, 1) 100%) !important;
 border-radius: 8px; border-left-width: 4px; }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button .left, #playlist-delete-button:hover {
-background: linear-gradient(to bottom,rgba(16, 36, 124, 0.6) 0,rgba(226, 0, 0, 0.73) 100%);
+background: linear-gradient(to bottom,rgba(16, 36, 124, 0.6) 0,rgba(59, 59, 237, 0.73) 100%);
 box-shadow: 0 0 10px rgba(11, 110, 159, 1) !important; }
 }
 #user-inventory .avatars .grid .cell:hover>.top, 
