@@ -365,10 +365,6 @@
 .ul-user { 
   color: white; 
 }
-.userlj {
-  background: url('https://vgy.me/fwmz8G.png') 314px -349px;
-  position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
-}
 .row:hover, 
 #user-lists .list .user:hover, 
 .media-list .actions {
@@ -648,7 +644,6 @@ box-shadow: 0 0 15px #12A9E0 !important; }
 #playback-controls .button.hd { background: linear-gradient(to bottom,rgba(68, 68, 68, 0.6) 0,rgba(226, 37, 0, 0.73) 100%);
 box-shadow: 0 0 10px rgba(158, 30, 11, 1) !important;
 }
-.icon { background-image: url('https://vgy.me/fwmz8G.png'); } /* vermelho */
 .icon.icon-chat-songlink { background: url('https://i.imgur.com/4ySq2jE.png') !important;
 background-repeat: no-repeat !important;  top: 8px !important; left: 28px !important; }
 .icon.icon-chat-imagelink { background: url('https://i.imgur.com/h56ipwJ.png') !important;
@@ -1350,3 +1345,6 @@ background-position: 9px 9px;
 } 
 #meh-rs { background: rgba(255, 39, 54, 0.35); -webkit-animation:fadein 0.25s; -moz-animation:fadein 0.25s; -ms-animation:fadein 0.25s; -o-animation:fadein 0.25s; animation:fadein 0.50s;
 } 
+.icon { 
+ background-image: url('https://vgy.me/8nLvk1.png');
+}
