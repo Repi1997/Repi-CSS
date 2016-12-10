@@ -303,16 +303,6 @@
   display:inline-block; 
   vertical-align:top; 
 }
-.userInfo.dj .votedBackgroundColor { 
-  background-color: #0A4380; 
-  font-weight: bold; 
-}
-.userInfo.woot .votedBackgroundColor { 
-  background-color: #407D42; 
-}
-.userInfo.meh .votedBackgroundColor { 
-  background-color: #702B30; 
-}
 #plugbot-userlist { 
   position: absolute; 
   top: 54px; 
@@ -772,10 +762,6 @@ border-radius: 8px; border-left-width: 4px; }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button .left, #playlist-delete-button:hover {
 background: linear-gradient(to bottom,rgba(16, 36, 124, 0.6) 0,rgba(226, 0, 0, 0.73) 100%);
 box-shadow: 0 0 10px rgba(11, 110, 159, 1) !important; }
-#dj-button.is-wait, #dj-button.is-wait .left  {  box-shadow: 0 0 10px #007AB2 !important;  }
-#dj-button.is-leave {  box-shadow: 0 0 10px rgba(11, 92, 159, 1) !important; }
-#dj-button.is-quit, #dj-button.is-join {  box-shadow: 0 0 10px rgba(11, 92, 159, 1) !important;  }
-#dj-button.is-locked .left, #dj-button.is-full .left {  box-shadow: #000 !important;
 }
 #user-inventory .avatars .grid .cell:hover>.top, 
 #user-avatars .my-avatars .grid .cell.selected .top {
@@ -1335,3 +1321,43 @@ background-position: 9px 9px;
    opacity: 0.86 !important;
    background: rgba(63, 186, 197, 0.39);
 }           
+#vote {
+	opacity: 0.90;
+}
+#woot { 
+	border-radius: 100px 0 0 100px ;
+}
+#woot .bottom { 
+	border-radius: 0 0 0 100px;
+}
+#woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
+}
+#meh { 
+	border-radius: 0 100px 100px 0;
+}
+#meh .bottom { 
+	border-radius: 0 0 100px 0;
+}
+#meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
+}
+#grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
+}
+#dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
+	opacity: 0.85;
+}
+#dj-button, #dj-button.is-leave { 
+	border-radius: 100px 100px 100px 100px;
+	background: linear-gradient(to top,#3A3A3A,rgba(34, 34, 34, 1) 100%);
+}
+#dj-button .left {
+	border-radius: 100px 100px 100px 100px;
+	background: linear-gradient(to top,#14C0F3,rgba(0, 152, 196, 1) 100%);
+}
+#dj-button.is-leave .left {
+	background: linear-gradient(to top,#3E47F2,rgba(32, 172, 228, 1) 100%);
+}
+.torch {
+	visibility: hidden;
