@@ -1008,7 +1008,7 @@ background-position: 9px 9px;
 /* HOST */
 .icon-chat-host {
 	background: url(https://vgy.me/9yKYCA.png) !important;
-	background-position: 2px 0 !important;
+	background-position: 0px 0 !important;
 }
 .icon-chat-host + span,
 #user-lists .group.host ~ .user span,
@@ -1018,13 +1018,13 @@ background-position: 9px 9px;
 #user-lists .group.host {
 	color: #1A56AA;
 	background: linear-gradient(to right, hsla(215,73%,40%,.5), hsla(215,73%,50%,.5)) !important;
-	top: 1px;
+	top: 0px;
 }
 
 /* CO-HOST */
 .icon-chat-cohost {
 	background: url(https://vgy.me/9yKYCA.png) !important;
-	background-position: 2px 0 !important;
+	background-position: 0px 0 !important;
 }
 .icon-chat-cohost + span,
 #dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
@@ -1034,7 +1034,7 @@ background-position: 9px 9px;
 /* MANAGER */
 .icon-chat-manager {
 	background: url(https://vgy.me/Kxu9PK.png) !important;
-	background-position: 2px 0 !important;
+	background-position: 0px 0 !important;
 }
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
@@ -1049,7 +1049,7 @@ background-position: 9px 9px;
 /* BOUNCER */
 .icon-chat-bouncer {
 	background: url(https://vgy.me/ZpNm0o.png) !important;
-	background-position: 2px 0 !important;
+	background-position: 0px 0 !important;
 }
 .icon-chat-bouncer + span,
 #user-lists .group.bouncer ~ .user span,
@@ -1064,7 +1064,7 @@ background-position: 9px 9px;
 /* RDJ */
 .icon-chat-dj {
 	background: url(https://vgy.me/Thvpo5.png) !important;
-	background-position: 2px 0 !important;
+	background-position: 0px 0 !important;
 }
 #user-lists .group.dj {
 	color: #00DCDC;
@@ -1090,7 +1090,7 @@ background-position: 9px 9px;
 }
 #user-rollover .actions .giftsub i {
 	background-image: url("https://vgy.me/TiquPI.png");
-	background-position: 0 0 !important;
+	background-position: -1px 0 !important;
 }
 #user-rollover .meta.subscriber.silver .status i {
 	background-image: url("https://vgy.me/DMyij4.png");
