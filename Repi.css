@@ -1004,60 +1004,83 @@ background-position: 9px 9px;
 	left: 8px;
 	top: 10px;
 }
-#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
-    color: #1A56AA !important;
+
+/* HOST */
+.icon-chat-host {
+	background: url(https://vgy.me/9yKYCA.png) !important;
+	background-position: 2px 0 !important;
 }
-.icon-chat-host,.message.from-host > .icon,.emote.from-host > .icon,.mention.from-host > .icon {
-    background-image: url("https://vgy.me/9yKYCA.png") !important;
-    background-position: 0 0;
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+	color: #1A56AA !important;
 }
-.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
-    color: #1A56AA !important;    
+#user-lists .group.host {
+	color: #1A56AA;
+	background: linear-gradient(to right, hsla(215,73%,40%,.5), hsla(215,73%,50%,.5)) !important;
+	top: 1px;
 }
-#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
-   color: #1A56AA !important;    
+
+/* CO-HOST */
+.icon-chat-cohost {
+	background: url(https://vgy.me/9yKYCA.png) !important;
+	background-position: 2px 0 !important;
 }
-.icon-chat-cohost,.message.from-cohost > .icon,.emote.from-cohost > .icon,.mention.from-cohost > .icon {
-    background-image: url("https://vgy.me/9yKYCA.png") !important;
-    background-position: 0 0;    
+.icon-chat-cohost + span,
+#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+	color: #1A56AA !important;
 }
-.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
-   color: #1A56AA !important;
-} 
-.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
-    color: #4D87D9 !important;
+
+/* MANAGER */
+.icon-chat-manager {
+	background: url(https://vgy.me/Kxu9PK.png) !important;
+	background-position: 2px 0 !important;
 }
-#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
-    color: #4D87D9 !important;
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+	color: #4D87D9 !important;
 }
-.icon-chat-manager,.message.from-manager > .icon,.emote.from-manager > .icon,.mention.from-manager > .icon {
-    background-image: url("https://vgy.me/Kxu9PK.png") !important;
-    background-position: 0 0;
+#user-lists .group.manager {
+	color: #4D87D9;
+	background: linear-gradient(to right, hsla(215,65%,30%,.5), hsla(215,65%,40%,.5)) !important;
 }
-#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
-    color: #2580FF !important;
+
+/* BOUNCER */
+.icon-chat-bouncer {
+	background: url(https://vgy.me/ZpNm0o.png) !important;
+	background-position: 2px 0 !important;
 }
-.icon-chat-bouncer,.message.from-bouncer > .icon,.emote.from-bouncer > .icon,.mention.from-bouncer > .icon {
-    background-image: url("https://vgy.me/ZpNm0o.png") !important;
-    background-position: 0 0;
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+	color: #2580FF !important;
 }
-.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
-    color: #2580FF !important;
+#user-lists .group.bouncer {
+	color: #2580FF;
+	background: linear-gradient(to right, hsla(215,100%,30%,.5), hsla(215,100%,40%,.5)) !important;
 }
-#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
-    color: #00DCDC !important;
+
+/* RDJ */
+.icon-chat-dj {
+	background: url(https://vgy.me/Thvpo5.png) !important;
+	background-position: 2px 0 !important;
 }
-.icon-chat-dj,.message.from-residentdj > .icon,.emote.from-residentdj > .icon,.mention.from-residentdj > .icon {
-    background-image: url('https://vgy.me/Thvpo5.png') !important;
-    background-position: 0 0;
+#user-lists .group.dj {
+	color: #00DCDC;
+	background: linear-gradient(to right, hsla(180,100%,30%,.5), hsla(180,100%,40%,.5)) !important;
 }
-.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
-    color: #00DCDC !important;
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+	color: #00DCDC !important;
 }
+
+/* SUBS */
 #user-rollover .meta.subscriber .status i {
 	background-image: url("https://vgy.me/TiquPI.png");
 	color: #85EBF5;
-	background-position: 0 0 !important;
+	background-position: -1px 0 !important;
 }
 #user-rollover .meta.subscriber .status span {
 	color: #85EBF5;
@@ -1072,10 +1095,14 @@ background-position: 9px 9px;
 #user-rollover .meta.subscriber.silver .status i {
 	background-image: url("https://vgy.me/DMyij4.png");
 	color: #46B2BC;
-	background-position: 0 0 !important;
+	background-position: -1px 0 !important;
 }
 #user-rollover .meta.subscriber.silver .status span {
 	color: #46B2BC;
+}
+#user-lists .group {
+	border: none !important;
+	box-shadow: 0 0 1px 1px;
 }
 .origem-color-host {
   color: #1A56AA !important;
