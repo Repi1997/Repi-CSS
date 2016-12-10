@@ -1302,20 +1302,20 @@ background-position: 9px 9px;
 }
 #room .app-right,
 #room .app-header{
-   opacity: 0.86 !important;
+   opacity: 0.50 !important;
    background: rgba(63, 186, 197, 0.39);
 }
 #rs-skip-button {
-   opacity: 0.86 !important;
+   opacity: 0.50 !important;
    background: rgba(63, 186, 197, 0.39);
 }
 #room .header-panel-bar,
 #header-panel-bar {
-   background: 0.75;
+   background: 0.50;
 }
 #room .history-button,
 #history-button {
-   background-color: 0.75;
+   background-color: 0.50;
 }           
 #vote {
 	opacity: 0.75;
