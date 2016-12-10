@@ -1391,3 +1391,34 @@ background-position: 9px 9px;
 #woot-rs .title, #grab-rs .title, #meh-rs .title {
 	border-radius: 10px 10px 0 0;
 }
+.pop-menu, .pop-menu .bar {
+	border-radius: 20px 20px 0 0;
+	background: transparent;
+}
+.pop-menu .bar {
+	background: linear-gradient(hsla(260,50%,50%,.8), hsla(260,50%,30%,.8));
+}
+.pop-menu .bar-divider {
+	background: linear-gradient(hsla(0,0%,90%,.8), hsla(0,0%,60%,.8));
+}
+.pop-menu .menu ul {
+	background: hsla(260,10%,7%,.8);
+}
+.pop-menu .menu ul i + span {
+	font-weight: bold;
+}
+.pop-menu .menu ul li:hover {
+	background: linear-gradient(hsla(260,50%,50%,.2), hsla(260,50%,30%,.2));;
+}
+.pop-menu .menu ul .create:hover {
+	background: linear-gradient(hsl(260,40%,50%), hsl(260,40%,30%));
+}
+.pop-menu .menu::-webkit-scrollbar {
+	background: hsl(260,10%,20%) !important;
+	box-shadow: inset 0 0 10px #000;
+	width: 10px;
+}
+.pop-menu .menu::-webkit-scrollbar-thumb {
+	background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
+	box-shadow: inset 0 0 5px hsla(0,0%,100%,.3);
+}
