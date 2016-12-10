@@ -1313,6 +1313,14 @@ background-position: 9px 9px;
 #room .app-header{
    opacity: 0.86 !important;
    background: rgba(63, 186, 197, 0.39);
+}
+#room .header-panel-bar,
+#header-panel-bar {
+   background: 0.75;
+}
+#room .history-button,
+#history-button {
+   background-color: 0.75;
 }           
 #vote {
 	opacity: 0.75;
