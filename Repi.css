@@ -1326,6 +1326,9 @@ background-position: 9px 9px;
 #woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
 	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
 }
+.votes-rs .title.woot {
+        background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
+}
 #meh { 
 	border-radius: 0 100px 100px 0;
 }
@@ -1335,8 +1338,14 @@ background-position: 9px 9px;
 #meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
 	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
 }
+.votes-rs .title.meh {
+        background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
+}
 #grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {
 	background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
+}
+.votes-rs .title.grab {
+        background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
 }
 #dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
 	opacity: 0.85;
