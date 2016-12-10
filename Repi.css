@@ -704,7 +704,7 @@ background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f46b40),
 background: -webkit-linear-gradient(top,#f46b40 0,#f04f30 100%);
 background: -o-linear-gradient(top,#f46b40 0,#f04f30 100%);
 background: -ms-linear-gradient(top,#f46b40 0,#f04f30 100%);
-background: linear-gradient(to bottom,rgba(2, 16, 108, 1) 0,rgba(255, 0, 0, 0.5) 100%);
+background: linear-gradient(to bottom,rgba(2, 16, 108, 1) 0,rgba(2, 16, 108, 0.5) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f46b40', endColorstr='#f04f30', GradientType=0);
 box-shadow: 0 0 10px rgba(2, 68, 130, 1) !important; }
 .dialog-frame .button.cancel { color: #FFFFFF;
@@ -1448,4 +1448,7 @@ background-position: 9px 9px;
 .pop-menu .menu::-webkit-scrollbar-thumb {
 	background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
 	box-shadow: inset 0 0 5px hsla(0,0%,100%,.3);
+}
+.subscribe-button:hover {
+	background: linear-gradient(hsl(40,70%,30%), hsl(40,70%,20%));
 }
