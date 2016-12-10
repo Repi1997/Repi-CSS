@@ -1315,25 +1315,22 @@ background-position: 9px 9px;
    background: rgba(63, 186, 197, 0.39);
 }           
 #vote {
-	opacity: 0.85;
+	opacity: 0.50;
 }
 #woot { 
-	border-radius: 70px 0 0 70px ;
+	border-radius: 50px 0 0 50px ;
 }
 #woot .bottom { 
-	border-radius: 0 0 0 70px;
+	border-radius: 0 0 0 50px;
 }
 #woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
 	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
 }
-.votes-rs .title.woot {
-        background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
-}
 #meh { 
-	border-radius: 0 70px 70px 0;
+	border-radius: 0 50px 50px 0;
 }
 #meh .bottom { 
-	border-radius: 0 0 70px 0;
+	border-radius: 0 0 50px 0;
 }
 #meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
 	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
@@ -1348,8 +1345,8 @@ background-position: 9px 9px;
         background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
 }
 #dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
-	opacity: 0.85;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+	opacity: 0.50;
+        
 }
 #dj-button, #dj-button.is-leave { 
 	border-radius: 100px 100px 100px 100px;
@@ -1364,3 +1361,10 @@ background-position: 9px 9px;
 }
 .torch {
 	visibility: hidden;
+}
+#woot-rs { background: rgba(0, 156, 34, 0.35); -webkit-animation:fadein 0.25s; -moz-animation:fadein 0.25s; -ms-animation:fadein 0.25s; -o-animation:fadein 0.25s; animation:fadein 0.50s;
+} 
+#grab-rs { background: rgba(222, 86, 255, 0.35); -webkit-animation:fadein 0.25s; -moz-animation:fadein 0.25s; -ms-animation:fadein 0.25s; -o-animation:fadein 0.25s; animation:fadein 0.50s;
+} 
+#meh-rs { background: rgba(255, 39, 54, 0.35); -webkit-animation:fadein 0.25s; -moz-animation:fadein 0.25s; -ms-animation:fadein 0.25s; -o-animation:fadein 0.25s; animation:fadein 0.50s;
+} 
