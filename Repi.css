@@ -1290,36 +1290,49 @@ background-position: 9px 9px;
 }
 #room-bar .icon-room {
     background: url('https://vgy.me/i4Poo0.png') no-repeat;
-}         
+}  
 #vote {
-	opacity: 0.75;
+	box-shadow: 0 0 10px #000;
+	border-radius: 40px;
+	width: 255px !important;
 }
-#woot { 
-	border-radius: 75px 0 0 75px ;
+#app #vote .bottom {
+	background: rgba(0,0,0,0);
 }
-#woot .bottom { 
-	border-radius: 0 0 0 75px;
+#woot, #grab, #meh {
+	margin-top: 0 !important;
 }
-#woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
+#vote .selected,
+#vote .selected .value {
+	font-weight: bold;
+	color: #FFF;
+}       
+#woot {
+	border-radius: 30px 0 0 30px;
+	background: linear-gradient(135deg, hsla(0,0%,50%,.3), hsla(0,0%,30%,.3)) !important;
+	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
-#meh { 
-	border-radius: 0 75px 75px 0;
+#woot.selected, #woot-rs .title {
+	background: linear-gradient(135deg, hsla(90,80%,50%,.8), hsla(90,80%,30%,.8)) !important;
+	box-shadow: inset 0 0 10px hsl(70,100%,40%) !important;
 }
-#meh .bottom { 
-	border-radius: 0 0 75px 0;
+#grab {
+	background: linear-gradient(hsla(0,0%,50%,.3), hsla(0,0%,30%,.3)) !important;
+	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
-#meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
+#grab.selected, #grab-rs .title {
+	background: linear-gradient(hsla(270,70%,50%,.8), hsla(265,70%,30%,.8)) !important;
+	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
 }
-.votes-rs .title.meh {
-        background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
+#meh {
+	background: linear-gradient(225deg, hsla(0,0%,50%,.3), hsla(0,0%,30%,.3)) !important;
+	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+	border-radius: 0 30px 30px 0;
+	margin-right: 0 !important;
 }
-#grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
-}
-.votes-rs .title.grab {
-        background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
+#meh.selected, #meh-rs .title {
+	background: linear-gradient(225deg, hsla(5,80%,50%,.8), hsla(0,80%,40%,.8)) !important;
+	box-shadow: inset 0 0 10px hsl(15,100%,50%) !important;
 }
 #dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
 	opacity: 0.75;
@@ -1347,4 +1360,34 @@ background-position: 9px 9px;
 } 
 .icon { 
  background-image: url('https://vgy.me/8nLvk1.png');
+}
+#chat-messages::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar {
+	width: 7px !important;
+	box-shadow: inset -1px 0 7px hsla(0,0%,0%,.7);
+}
+#chat-messages::-webkit-scrollbar-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.jspDrag {
+	background: linear-gradient(to right, hsl(210,10%,50%), hsl(210,10%,20%));
+	box-shadow: inset 1px 0 7px hsla(0,0%,100%,.5);
+	border-radius: 5px;
+}
+#woot-rs, #grab-rs, #meh-rs {
+	top: -1px;
+	border-radius: 10px 10px 0 0;
+	background: hsla(210,10%,5%,.8);
+	box-shadow: 0 0 10px #000;
+	z-index: 0;
+}
+#woot-rs .title, #grab-rs .title, #meh-rs .title {
+	border-radius: 10px 10px 0 0;
 }
