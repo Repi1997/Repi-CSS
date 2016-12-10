@@ -1275,9 +1275,6 @@ background-position: 9px 9px;
         background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
     }
 }
-#footer-user .back {
-  background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
-}
 #footer {
   background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
@@ -1298,28 +1295,7 @@ background-position: 9px 9px;
 }
 #room-bar .icon-room {
     background: url('https://vgy.me/i4Poo0.png') no-repeat;
-}
-#room .app-right,
-#room .app-header {
-   opacity: 0.89 !important;
-   background: rgba(36, 84, 84, 0.25);
-}
-#rs-skip-button {
-   opacity: 0.50 !important;
-   background: rgba(36, 84, 84, 0.25);
-}
-#room .header-panel-bar, #header-panel-bar {
-   opacity: 0.50 !important;
-   background: rgba(36, 84, 84, 0.25);
-}
-#room .header-panel-bar,
-#header-panel-bar {
-   background: 0.89;
-}
-#room .history-button,
-#history-button {
-   background-color: 0.89;
-}           
+}         
 #vote {
 	opacity: 0.75;
 }
