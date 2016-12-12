@@ -365,6 +365,33 @@
 .ul-user { 
   color: white; 
 }
+.icon-chat-admin + span {
+ color: #42A5DC !important;
+}
+.icon-chat-ambassador + span { 
+ color: #6CBEBC !important;
+} 
+.icon-chat-host + span {
+ color: #1A56AA !important;
+} 
+.icon-chat-cohost + span {
+ color: #1A56AA !important;
+} 
+.icon-chat-manager + span {
+ color: #4D87D9 !important;
+} 
+.icon-chat-bouncer + span { 
+ color: #2580FF !important;
+} 
+.icon-chat-dj + span {
+ color: #00DCDC !important;
+} 
+.icon-chat-subscriber + span {
+ color: #85EBF5 !important;
+} 
+.icon-chat-subscriber.silver + span {
+ color: #46B2BC !important;
+} 
 .row:hover, 
 #user-lists .list .user:hover, 
 .media-list .actions {
