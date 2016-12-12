@@ -1298,7 +1298,10 @@ background-position: 9px 9px;
     }
 }
 #footer {
-  background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.75) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+.app-header {
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.75) 0,rgba(0, 0, 0, 0.75) 100%);
 }
 #dashboard {
   background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
